@@ -1,0 +1,1695 @@
+../motion_planner/GoTo_State_Machine -x 0.120000 -y 0.827500 -a 5.497800 -v 0.665000 -z 0.810000 -s laser -n 16 -t -2.356100 -r 4.712200 -p ../../data/ -e obstacle -advance 0.030000 -MaxAngle 0.785400 -selection 7 -largest 0.100000 -noise 0 -omni 1 -vq 0 -size_vq 0 -pr_out 0 -out_file obstacle -nn_rec 0 -nn_unk 0 -search 1
+
+observations file: ../../data/obstacle.raw
+
+ Radio robot 0.020000 
+( origen 0.120000 0.827500 5.497800 )
+( destination 0.665000 0.810000 )
+search method 1
+
+
+ ************************************************************
+distance destination 0.545281 threshold 0.075600
+1 Pose robot 0.120000 0.827500 5.497800 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 0.753286
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.100000
+right sensor 0.100000
+angle_light 0.753286 quantized destination 3 
+quantized inputs 0
+intensity 3.363252 quantized intensity 0 
+First or Dijkstra search, destination: angle  0.000000 distance 0.000000
+ Node 0 x 0.350000 y 0.800000
+Node 0 x 0.350000 y 0.800000
+First light 0: x = 0.350000  y = 0.800000 
+movement without noise: angle  0.000000 distance 0.000000
+
+
+ ************************************************************
+distance destination 0.231638 threshold 0.075600
+2 Pose robot 0.120000 0.827500 5.497800 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 0.666386
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.100000
+right sensor 0.100000
+angle_light 0.666386 quantized destination 3 
+quantized inputs 0
+intensity 18.637159 quantized intensity 0 
+First or Dijkstra search, destination: angle  0.000000 distance 0.000000
+obs intensity 0 obstacles 0 dest 3
+FORWARD
+Present State: 0 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.030000
+movement without noise: angle  0.000000 distance 0.030000
+
+
+ ************************************************************
+distance destination 0.208881 threshold 0.075600
+3 Pose robot 0.141213 0.806287 5.497800 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 0.755282
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.100000
+right sensor 0.100000
+angle_light 0.755282 quantized destination 3 
+quantized inputs 0
+intensity 22.919306 quantized intensity 0 
+First or Dijkstra search, destination: angle  0.000000 distance 0.030000
+obs intensity 0 obstacles 0 dest 3
+FORWARD
+Present State: 1 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.030000
+movement without noise: angle  0.000000 distance 0.030000
+
+
+ ************************************************************
+distance destination 0.188166 threshold 0.075600
+4 Pose robot 0.162427 0.785074 5.497800 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 0.864792
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.100000
+right sensor 0.100000
+angle_light 0.864792 quantized destination 3 
+quantized inputs 0
+intensity 28.243458 quantized intensity 0 
+First or Dijkstra search, destination: angle  0.000000 distance 0.030000
+obs intensity 0 obstacles 0 dest 3
+FORWARD
+Present State: 13 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.030000
+movement without noise: angle  0.000000 distance 0.030000
+
+
+ ************************************************************
+distance destination 0.170240 threshold 0.075600
+5 Pose robot 0.183640 0.763861 5.497800 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 0.999295
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.100000
+right sensor 0.100000
+angle_light 0.999295 quantized destination 3 
+quantized inputs 0
+intensity 34.504742 quantized intensity 0 
+First or Dijkstra search, destination: angle  0.000000 distance 0.030000
+obs intensity 0 obstacles 0 dest 3
+LEFT
+Present State: 3 TURN LEFT
+avoidance destination behavior: angle  0.785400 distance 0.000000
+movement without noise: angle  0.785400 distance 0.000000
+
+
+ ************************************************************
+distance destination 0.170240 threshold 0.075600
+6 Pose robot 0.183640 0.763861 6.283200 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 0.213895
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.100000
+right sensor 0.100000
+angle_light 0.213895 quantized destination 3 
+quantized inputs 0
+intensity 34.504742 quantized intensity 0 
+First or Dijkstra search, destination: angle  0.785400 distance 0.000000
+obs intensity 0 obstacles 0 dest 3
+FORWARD
+Present State: 0 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.030000
+movement without noise: angle  0.000000 distance 0.030000
+
+
+ ************************************************************
+distance destination 0.141067 threshold 0.075600
+7 Pose robot 0.213640 0.763862 6.283200 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 0.259053
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.100000
+right sensor 0.100000
+angle_light 0.259053 quantized destination 3 
+quantized inputs 0
+intensity 50.251461 quantized intensity 0 
+First or Dijkstra search, destination: angle  0.000000 distance 0.030000
+obs intensity 0 obstacles 0 dest 3
+FORWARD
+Present State: 1 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.030000
+movement without noise: angle  0.000000 distance 0.030000
+
+
+ ************************************************************
+distance destination 0.112331 threshold 0.075600
+8 Pose robot 0.243640 0.763862 6.283200 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 0.327520
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.100000
+right sensor 0.100000
+angle_light 0.327520 quantized destination 3 
+quantized inputs 0
+intensity 79.249901 quantized intensity 0 
+First or Dijkstra search, destination: angle  0.000000 distance 0.030000
+obs intensity 0 obstacles 0 dest 3
+FORWARD
+Present State: 13 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.030000
+movement without noise: angle  0.000000 distance 0.030000
+
+
+ ************************************************************
+distance destination 0.084479 threshold 0.075600
+9 Pose robot 0.273640 0.763862 6.283200 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 0.442009
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.100000
+right sensor 0.100000
+angle_light 0.442009 quantized destination 3 
+quantized inputs 0
+intensity 140.120621 quantized intensity 0 
+First or Dijkstra search, destination: angle  0.000000 distance 0.030000
+obs intensity 0 obstacles 0 dest 3
+LEFT
+Present State: 3 TURN LEFT
+avoidance destination behavior: angle  0.785400 distance 0.000000
+movement without noise: angle  0.785400 distance 0.000000
+
+
+ ************************************************************
+distance destination 0.084479 threshold 0.075600
+10 Pose robot 0.273640 0.763862 0.785400 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 5.939809
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.100000
+right sensor 0.100000
+angle_light 5.939809 quantized destination 2 
+quantized inputs 0
+intensity 140.120621 quantized intensity 0 
+First or Dijkstra search, destination: angle  0.785400 distance 0.000000
+obs intensity 0 obstacles 0 dest 2
+FORWARD
+Present State: 0 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.030000
+movement without noise: angle  0.000000 distance 0.030000
+
+
+ ************************************************************
+ reached distance destination 0.057130
+num_obs 11 reached distance destination 0.057130
+distance destination 0.057130 threshold 0.075600
+11 Pose robot 0.294854 0.785076 0.785400 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 5.762086
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.100000
+right sensor 0.100000
+angle_light 5.762086 quantized destination 2 
+quantized inputs 0
+intensity 306.385590 quantized intensity 1 
+First or Dijkstra search, destination: angle  0.000000 distance 0.030000
+Node 1 x 0.750000 y 0.800000
+New Light 1: x = 0.750000  y = 0.800000 
+obs intensity 1 obstacles 0 dest 2
+FORWARD
+Present State: 1 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.030000
+movement without noise: angle  0.000000 distance 0.030000
+
+
+ ************************************************************
+distance destination 0.433979 threshold 0.075600
+12 Pose robot 0.316067 0.806289 0.785400 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 5.483294
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.100000
+right sensor 0.100000
+angle_light 5.483294 quantized destination 2 
+quantized inputs 0
+intensity 5.309614 quantized intensity 0 
+First or Dijkstra search, destination: angle  0.000000 distance 0.030000
+obs intensity 0 obstacles 0 dest 2
+FORWARD
+Present State: 13 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.030000
+movement without noise: angle  0.000000 distance 0.030000
+
+
+ ************************************************************
+distance destination 0.413635 threshold 0.075600
+13 Pose robot 0.337280 0.827502 0.785400 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 5.431248
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.100000
+right sensor 0.100000
+angle_light 5.431248 quantized destination 2 
+quantized inputs 0
+intensity 5.844734 quantized intensity 0 
+First or Dijkstra search, destination: angle  0.000000 distance 0.030000
+obs intensity 0 obstacles 0 dest 2
+RIGHT
+Present State: 5 TURN RIGTH
+avoidance destination behavior: angle  -0.785400 distance 0.000000
+movement without noise: angle  -0.785400 distance 0.000000
+
+
+ ************************************************************
+distance destination 0.413635 threshold 0.075600
+14 Pose robot 0.337280 0.827502 6.283200 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 6.216633
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.100000
+right sensor 0.100000
+angle_light 6.216633 quantized destination 2 
+quantized inputs 0
+intensity 5.844734 quantized intensity 0 
+First or Dijkstra search, destination: angle  -0.785400 distance 0.000000
+obs intensity 0 obstacles 0 dest 2
+FORWARD
+Present State: 0 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.030000
+movement without noise: angle  0.000000 distance 0.030000
+
+
+ ************************************************************
+distance destination 0.383707 threshold 0.075600
+15 Pose robot 0.367280 0.827503 6.283200 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 6.211434
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.100000
+right sensor 0.100000
+angle_light 6.211434 quantized destination 2 
+quantized inputs 0
+intensity 6.792047 quantized intensity 0 
+First or Dijkstra search, destination: angle  0.000000 distance 0.030000
+obs intensity 0 obstacles 0 dest 2
+FORWARD
+Present State: 1 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.030000
+movement without noise: angle  0.000000 distance 0.030000
+
+
+ ************************************************************
+distance destination 0.353791 threshold 0.075600
+16 Pose robot 0.397280 0.827503 6.283200 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 6.205355
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.100000
+right sensor 0.100000
+angle_light 6.205355 quantized destination 2 
+quantized inputs 0
+intensity 7.989273 quantized intensity 0 
+First or Dijkstra search, destination: angle  0.000000 distance 0.030000
+obs intensity 0 obstacles 0 dest 2
+FORWARD
+Present State: 13 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.030000
+movement without noise: angle  0.000000 distance 0.030000
+
+
+ ************************************************************
+distance destination 0.323890 threshold 0.075600
+17 Pose robot 0.427280 0.827503 6.283200 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 6.198153
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.100000
+right sensor 0.100000
+angle_light 6.198153 quantized destination 2 
+quantized inputs 0
+intensity 9.532464 quantized intensity 0 
+First or Dijkstra search, destination: angle  0.000000 distance 0.030000
+obs intensity 0 obstacles 0 dest 2
+RIGHT
+Present State: 5 TURN RIGTH
+avoidance destination behavior: angle  -0.785400 distance 0.000000
+movement without noise: angle  -0.785400 distance 0.000000
+
+
+ ************************************************************
+distance destination 0.323890 threshold 0.075600
+18 Pose robot 0.427280 0.827503 5.497800 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 0.700367
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.100000
+right sensor 0.100000
+angle_light 0.700367 quantized destination 3 
+quantized inputs 0
+intensity 9.532464 quantized intensity 0 
+First or Dijkstra search, destination: angle  -0.785400 distance 0.000000
+obs intensity 0 obstacles 0 dest 3
+FORWARD
+Present State: 0 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.030000
+movement without noise: angle  0.000000 distance 0.030000
+
+
+ ************************************************************
+distance destination 0.301572 threshold 0.075600
+19 Pose robot 0.448493 0.806290 5.497800 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 0.764525
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.100000
+right sensor 0.100000
+angle_light 0.764525 quantized destination 3 
+quantized inputs 0
+intensity 10.995561 quantized intensity 0 
+First or Dijkstra search, destination: angle  0.000000 distance 0.030000
+obs intensity 0 obstacles 0 dest 3
+FORWARD
+Present State: 1 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.030000
+movement without noise: angle  0.000000 distance 0.030000
+
+
+ ************************************************************
+distance destination 0.280690 threshold 0.075600
+20 Pose robot 0.469707 0.785078 5.497800 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 0.838574
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.100000
+right sensor 0.100000
+angle_light 0.838574 quantized destination 3 
+quantized inputs 0
+intensity 12.692463 quantized intensity 0 
+First or Dijkstra search, destination: angle  0.000000 distance 0.030000
+obs intensity 0 obstacles 0 dest 3
+FORWARD
+Present State: 13 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.030000
+movement without noise: angle  0.000000 distance 0.030000
+
+
+ ************************************************************
+distance destination 0.261588 threshold 0.075600
+21 Pose robot 0.490920 0.763865 5.497800 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 0.923968
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.100000
+right sensor 0.100000
+angle_light 0.923968 quantized destination 3 
+quantized inputs 0
+intensity 14.613897 quantized intensity 0 
+First or Dijkstra search, destination: angle  0.000000 distance 0.030000
+obs intensity 0 obstacles 0 dest 3
+LEFT
+Present State: 3 TURN LEFT
+avoidance destination behavior: angle  0.785400 distance 0.000000
+movement without noise: angle  0.785400 distance 0.000000
+
+
+ ************************************************************
+distance destination 0.261588 threshold 0.075600
+22 Pose robot 0.490920 0.763865 6.283200 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 0.138568
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.100000
+right sensor 0.100000
+angle_light 0.138568 quantized destination 3 
+quantized inputs 0
+intensity 14.613897 quantized intensity 0 
+First or Dijkstra search, destination: angle  0.785400 distance 0.000000
+obs intensity 0 obstacles 0 dest 3
+FORWARD
+Present State: 0 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.030000
+movement without noise: angle  0.000000 distance 0.030000
+
+
+ ************************************************************
+distance destination 0.231912 threshold 0.075600
+23 Pose robot 0.520920 0.763865 6.283200 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 0.156436
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.100000
+right sensor 0.100000
+angle_light 0.156436 quantized destination 3 
+quantized inputs 0
+intensity 18.593157 quantized intensity 0 
+First or Dijkstra search, destination: angle  0.000000 distance 0.030000
+obs intensity 0 obstacles 0 dest 3
+FORWARD
+Present State: 1 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.030000
+movement without noise: angle  0.000000 distance 0.030000
+
+
+ ************************************************************
+distance destination 0.202332 threshold 0.075600
+24 Pose robot 0.550920 0.763865 6.283200 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 0.179539
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.100000
+right sensor 0.100000
+angle_light 0.179539 quantized destination 3 
+quantized inputs 0
+intensity 24.426924 quantized intensity 0 
+First or Dijkstra search, destination: angle  0.000000 distance 0.030000
+obs intensity 0 obstacles 0 dest 3
+FORWARD
+Present State: 13 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.030000
+movement without noise: angle  0.000000 distance 0.030000
+
+
+ ************************************************************
+distance destination 0.172898 threshold 0.075600
+25 Pose robot 0.580920 0.763866 6.283200 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 0.210529
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.100000
+right sensor 0.100000
+angle_light 0.210529 quantized destination 3 
+quantized inputs 0
+intensity 33.451942 quantized intensity 0 
+First or Dijkstra search, destination: angle  0.000000 distance 0.030000
+obs intensity 0 obstacles 0 dest 3
+LEFT
+Present State: 3 TURN LEFT
+avoidance destination behavior: angle  0.785400 distance 0.000000
+movement without noise: angle  0.785400 distance 0.000000
+
+
+ ************************************************************
+distance destination 0.172898 threshold 0.075600
+26 Pose robot 0.580920 0.763866 0.785400 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 5.708329
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.100000
+right sensor 0.100000
+angle_light 5.708329 quantized destination 2 
+quantized inputs 0
+intensity 33.451942 quantized intensity 0 
+First or Dijkstra search, destination: angle  0.785400 distance 0.000000
+obs intensity 0 obstacles 0 dest 2
+FORWARD
+Present State: 0 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.030000
+movement without noise: angle  0.000000 distance 0.030000
+
+
+ ************************************************************
+distance destination 0.148617 threshold 0.075600
+27 Pose robot 0.602133 0.785079 0.785400 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 5.598353
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.100000
+right sensor 0.100000
+angle_light 5.598353 quantized destination 2 
+quantized inputs 0
+intensity 45.275196 quantized intensity 0 
+First or Dijkstra search, destination: angle  0.000000 distance 0.030000
+obs intensity 0 obstacles 0 dest 2
+FORWARD
+Present State: 1 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.030000
+movement without noise: angle  0.000000 distance 0.030000
+
+
+ ************************************************************
+distance destination 0.126810 threshold 0.075600
+28 Pose robot 0.623347 0.806292 0.785400 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 5.448145
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.100000
+right sensor 0.100000
+angle_light 5.448145 quantized destination 2 
+quantized inputs 0
+intensity 62.186462 quantized intensity 0 
+First or Dijkstra search, destination: angle  0.000000 distance 0.030000
+obs intensity 0 obstacles 0 dest 2
+FORWARD
+Present State: 13 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.030000
+movement without noise: angle  0.000000 distance 0.030000
+
+
+ ************************************************************
+distance destination 0.108969 threshold 0.075600
+29 Pose robot 0.644560 0.827506 0.785400 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 5.242609
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.100000
+right sensor 0.100000
+angle_light 5.242609 quantized destination 2 
+quantized inputs 0
+intensity 84.216278 quantized intensity 0 
+First or Dijkstra search, destination: angle  0.000000 distance 0.030000
+obs intensity 0 obstacles 0 dest 2
+RIGHT
+Present State: 5 TURN RIGTH
+avoidance destination behavior: angle  -0.785400 distance 0.000000
+movement without noise: angle  -0.785400 distance 0.000000
+
+
+ ************************************************************
+distance destination 0.108969 threshold 0.075600
+30 Pose robot 0.644560 0.827506 6.283200 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 6.027994
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.100000
+right sensor 0.100000
+angle_light 6.027994 quantized destination 2 
+quantized inputs 0
+intensity 84.216278 quantized intensity 0 
+First or Dijkstra search, destination: angle  -0.785400 distance 0.000000
+obs intensity 0 obstacles 0 dest 2
+FORWARD
+Present State: 0 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.030000
+movement without noise: angle  0.000000 distance 0.030000
+
+
+ ************************************************************
+distance destination 0.080298 threshold 0.075600
+31 Pose robot 0.674560 0.827506 6.283200 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 5.933544
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.100000
+right sensor 0.100000
+angle_light 5.933544 quantized destination 2 
+quantized inputs 0
+intensity 155.091553 quantized intensity 0 
+First or Dijkstra search, destination: angle  0.000000 distance 0.030000
+obs intensity 0 obstacles 0 dest 2
+FORWARD
+Present State: 1 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.030000
+movement without noise: angle  0.000000 distance 0.030000
+
+
+ ************************************************************
+ reached distance destination 0.053117
+num_obs 32 reached distance destination 0.053117
+distance destination 0.053117 threshold 0.075600
+32 Pose robot 0.704560 0.827506 6.283200 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 5.738842
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.100000
+right sensor 0.100000
+angle_light 5.738842 quantized destination 2 
+quantized inputs 0
+intensity 354.431946 quantized intensity 1 
+First or Dijkstra search, destination: angle  0.000000 distance 0.030000
+Final Light 16: x = 0.665000  y = 0.810000 
+obs intensity 1 obstacles 0 dest 2
+FORWARD
+Present State: 13 FORWARD
+avoidance destination behavior: angle  0.000000 distance 0.030000
+movement without noise: angle  0.000000 distance 0.030000
+
+
+ ************************************************************
+ reached distance destination 0.071729
+num_obs 33 reached distance destination 0.071729
+distance destination 0.071729 threshold 0.075600
+33 Pose robot 0.734560 0.827507 6.283200 
+range observations.sensors[0] 0.100000
+range observations.sensors[1] 0.100000
+range observations.sensors[2] 0.100000
+range observations.sensors[3] 0.100000
+range observations.sensors[4] 0.100000
+range observations.sensors[5] 0.100000
+range observations.sensors[6] 0.100000
+range observations.sensors[7] 0.100000
+range observations.sensors[8] 0.100000
+range observations.sensors[9] 0.100000
+range observations.sensors[10] 0.100000
+range observations.sensors[11] 0.100000
+range observations.sensors[12] 0.100000
+range observations.sensors[13] 0.100000
+range observations.sensors[14] 0.100000
+range observations.sensors[15] 0.100000
+light source angle 3.388138
+noised range sensors[0] 0.100000
+noised range sensors[1] 0.100000
+noised range sensors[2] 0.100000
+noised range sensors[3] 0.100000
+noised range sensors[4] 0.100000
+noised range sensors[5] 0.100000
+noised range sensors[6] 0.100000
+noised range sensors[7] 0.100000
+noised range sensors[8] 0.100000
+noised range sensors[9] 0.100000
+noised range sensors[10] 0.100000
+noised range sensors[11] 0.100000
+noised range sensors[12] 0.100000
+noised range sensors[13] 0.100000
+noised range sensors[14] 0.100000
+noised range sensors[15] 0.100000
+THRS_SENSOR 0.070000
+Interval 8 THRS_SENSOR 0.070000
+left sensor 0.100000
+right sensor 0.100000
+angle_light 3.388138 quantized destination 0 
+quantized inputs 0
+intensity 194.362000 quantized intensity 1 
+First or Dijkstra search, destination: angle  0.000000 distance 0.030000
+Finished Dijkstra 
